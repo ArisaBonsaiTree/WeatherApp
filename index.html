@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 
     <!-- Think of this as the npm for axios -->
@@ -12,17 +14,31 @@
 
 </head>
 <body>
-    <p>9:00 AM</p>
-    <h1>Cloudy</h1>
-    <h2>Kebili, Mali</h2>
-    <h1>61 &#176</h1>
-    <!-- Giving credit where credit is due! -->
-    <div class="credit">
-        Powered by <a href="https://www.weatherapi.com/" title="Weather API">WeatherAPI.com</a>
-        <br>
-        Design Idea by <a href="https://www.invisionapp.com/inside-design/weather-app-ui-examples/">invisionapp.com</a>
-    </div>
     
+    <div class="section">
+        <header id='appName'>Weather App</header>
+        <h1 id='city'>Dallas</h1>
+        <p id='date'>August x, 2021</p>
+        
+        <h2><span id='temp'>65</span>&#176F</h2>
+        <p id='condition'>Clear</p>
+        <div class="imageDiv">
+            <img id='img' src="" alt="">
+        </div>
+        
+        
+        <button>Get Weather</button>
+        <div class="credit">
+            <p>Powered by <a href="https://www.weatherapi.com/" title="Weather API">WeatherAPI.com</a></p>
+        </div>
+    </div>
+
+    
+    
+    
+    <script src="config.js"></script>
     <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
 </body>
 </html>
