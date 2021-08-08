@@ -1,6 +1,5 @@
 # WeatherApp
 
-
-https://raw.githubusercontent.com/ArsiaBonsaiTree/WeatherApp/main/appPicTwo.png
+Web Design is my passion
 
 ![pic](https://raw.githubusercontent.com/ArsiaBonsaiTree/WeatherApp/main/appPicTwo.png)
